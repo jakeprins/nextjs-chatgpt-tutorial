@@ -3,7 +3,7 @@
 <img alt="Screenshot" src="./public/img/screenshot.jpg" height="75%" width="75%"/>
 
 ## Tutorial
-You can find a step-by-step tutorial [here](Read the full tutorial [here](https://www.jakeprins.com/blog/how-to-create-a-chatgpt-application-using-next-js-and-the-openai-api). 
+You can find a step-by-step tutorial [here](https://www.jakeprins.com/blog/how-to-create-a-chatgpt-application-using-next-js-and-the-openai-api). 
 
 ## Overview
 
