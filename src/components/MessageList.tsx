@@ -1,10 +1,15 @@
 import { useMessages } from 'utils/useMessages'
+import { useEffect } from "react";
 
 const MessagesList = () => {
   const { messages, isLoadingAnswer } = useMessages()
 
+  useEffect(() => {
+    window.scrollTo({top:document.body.scrollHeight, behavior: "smooth"},);
+  }, [isLoadingAnswer]);
+
   return (
-    <div className="max-w-3xl mx-auto pt-8">
+    <div className="max-w-3xl mx-auto pt-8 pb-32">
       {messages?.map((message, i) => {
         const isUser = message.role === 'user'
         if (message.role === 'system') return null
