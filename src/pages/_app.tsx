@@ -1,7 +1,7 @@
 import 'styles/globals.css'
 import 'styles/tailwind.css'
 
-import { ModalProvider, ToastProvider } from '@apideck/components'
+import { ModalProvider, ToastProvider } from "@apideck/components";
 
 import { AppProps } from 'next/app'
 

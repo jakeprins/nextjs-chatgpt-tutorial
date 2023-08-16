@@ -9,10 +9,15 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:@typescript-eslint/recommended"
   ],
-  "ignorePatterns": ["node_modules/*", ".next/*", ".vscode", ".gitignore", "tailwind.config.js"],
+  "ignorePatterns": [
+    "node_modules/*",
+    ".next/*",
+    ".vscode",
+    ".gitignore",
+    "tailwind.config.js"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {

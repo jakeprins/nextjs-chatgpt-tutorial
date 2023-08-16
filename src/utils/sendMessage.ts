@@ -1,4 +1,4 @@
-import { ChatCompletionRequestMessage } from 'openai'
+import { ChatCompletionRequestMessage } from "openai";
 
 export const sendMessage = async (messages: ChatCompletionRequestMessage[]) => {
   try {
