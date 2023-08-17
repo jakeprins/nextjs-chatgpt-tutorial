@@ -24,7 +24,7 @@ const MessagesList = () => {
             {!isUser && (
               <img
                 src={`https://source.unsplash.com/${process.env.NEXT_PUBLIC_AI_PHOTO}/500x500`}
-                className="w-9 h-9 rounded-full"
+                className="w-10 h-10 rounded-full"
                 alt="avatar"
               />
             )}
@@ -41,7 +41,7 @@ const MessagesList = () => {
             {isUser && (
               <img
               src={`https://source.unsplash.com/${process.env.NEXT_PUBLIC_USER_PHOTO}/500x500`}
-                className="w-9 h-9 rounded-full cursor-pointer"
+                className="w-10 h-10 rounded-full cursor-pointer"
                 alt="avatar"
               />
             )}
@@ -52,7 +52,7 @@ const MessagesList = () => {
         <div className="flex justify-start mb-4">
           <img
             src={`https://source.unsplash.com/${process.env.NEXT_PUBLIC_AI_PHOTO}/500x500`}
-            className="w-9 h-9 rounded-full"
+            className="w-10 h-10 rounded-full"
             alt="avatar"
           />
           <div className="loader ml-2 p-2.5 px-4 bg-gray-200 dark:bg-gray-800 rounded-full space-x-1.5 flex justify-between items-center relative">
