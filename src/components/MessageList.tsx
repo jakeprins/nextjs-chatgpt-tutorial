@@ -23,7 +23,7 @@ const MessagesList = () => {
           >
             {!isUser && (
               <img
-                src="https://www.teamsmart.ai/next-assets/team/ai.jpg"
+                src={`https://source.unsplash.com/${process.env.NEXT_PUBLIC_AI_PHOTO}/500x500`}
                 className="w-9 h-9 rounded-full"
                 alt="avatar"
               />
@@ -40,7 +40,7 @@ const MessagesList = () => {
             </div>
             {isUser && (
               <img
-                src="https://www.teamsmart.ai/next-assets/profile-image.png"
+              src={`https://source.unsplash.com/${process.env.NEXT_PUBLIC_USER_PHOTO}/500x500`}
                 className="w-9 h-9 rounded-full cursor-pointer"
                 alt="avatar"
               />
@@ -51,7 +51,7 @@ const MessagesList = () => {
       {isLoadingAnswer && (
         <div className="flex justify-start mb-4">
           <img
-            src="https://www.teamsmart.ai/next-assets/team/ai.jpg"
+            src={`https://source.unsplash.com/${process.env.NEXT_PUBLIC_AI_PHOTO}/500x500`}
             className="w-9 h-9 rounded-full"
             alt="avatar"
           />
